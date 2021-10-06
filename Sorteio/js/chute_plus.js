@@ -8,9 +8,11 @@ function verificarSorteio(){
     }
     else{
         alert("Você Errou tente novamente :( !");
+        
     }
+    
 };
-
+input.focus();
 var verificar = document.querySelector(".verificar");
 
 verificar.addEventListener("click",verificarSorteio);
